@@ -10,7 +10,18 @@ const resetBtn = document.getElementById('reset');
 /* State */
 
 /* Events */
+submitBtn. addEventListener('click') () => 
+{
+// hide prompt
 
+*   hide prompt
+*   display the image
+*   pick any number between 0 and length of answers
+
+-   button click (ask again)
+
+*   hide 8 ball and answer
+*   show prompt
 /* Display Functions */
 
 // (don't forget to call any display functions you want to run on page load!)
