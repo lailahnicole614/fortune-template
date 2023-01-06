@@ -31,8 +31,30 @@ header .logo {
 }
 
 main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
 }
 .hide {
     display: none;
+}
+p {
+    color: yellow;
+}
+.button {
+    color: yellow;
+    background-color: burlywood;
+    width: 80px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.image {
+    width: 300px;
+}
+.button:hover {
+    cursor: pointer;
+    opacity: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+        Geneva, Verdana, sans-serif;
 }
