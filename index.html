@@ -29,19 +29,21 @@
         </header>
         <h1>Affirmation 8 Ball!</h1>
         <main>
-            
             <audio controls auto play muted>
-                <source src="./assets/inspiration music.mp3">
+                <source src="./assets/inspiration music.mp3" />
             </audio>
 
             <section id="prompt" class="prompt">
-                <p>What's Heavy On Your Mind Today?</p>
-                <input type="text" />
-                <button id="Affirm Me">Affirm Me</button>
+                <h1>What's Heavy On Your Mind Today?</h1>
+                <input class="submit-input" type="text" placeholder="I feel so down..." />
+                <button class="button" id="Affirm Me">Affirm Me</button>
             </section>
-                <img src="/assets/8 ball affirmations.png" alt="8 ball" />
-                <p id="answer"></p>
-                <button id="reset">New Affirmation!</button>
+            <section id="Affirmation" class="affirmation hide">
+                <div class="affirmation- wrapper">
+                    <img src="/assets/8 ball affirmations.png" alt="8 ball" />
+                    <p id="answer"></p>
+                    <button id="reset">New Affirmation!</button>
+                </div>
             </section>
         </main>
     </body>
