@@ -13,7 +13,8 @@ const resetBtn = document.getElementById('reset');
 submitBtn. addEventListener('click') () => 
 {
 // hide prompt
-
+// display image
+functiontoggleSections () {promptSection.classList.toggle('hide')}
 *   hide prompt
 *   display the image
 *   pick any number between 0 and length of answers
