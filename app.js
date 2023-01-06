@@ -10,19 +10,12 @@ const resetBtn = document.getElementById('reset');
 /* State */
 
 /* Events */
-submitBtn. addEventListener('click') () => 
-{
+submitBtn. addEventListener('click') () =>
 // hide prompt
 // display image
 functiontoggleSections () {promptSection.classList.toggle('hide')}
-*   hide prompt
-*   display the image
-*   pick any number between 0 and length of answers
-
--   button click (ask again)
-
-*   hide 8 ball and answer
-*   show prompt
+const answers=
+constrandomInt=Math.floor(Math.random)(x)answers.length 
 /* Display Functions */
 
 // (don't forget to call any display functions you want to run on page load!)
