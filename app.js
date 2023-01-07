@@ -21,7 +21,7 @@ submitBtn.addEventListener('click', () => {
     //console.log(randomChoice);
     //console.log('answers[19]'), answers[19]);
     //set the content of the answer p to the random choice
-    answerP.textContent = randomChoice;
+    answersP.textContent = randomChoice;
 });
 
 resetBtn.addEventListener('click', () => {
