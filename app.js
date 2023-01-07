@@ -31,7 +31,6 @@ resetBtn.addEventListener('click', () => {
 
 function toggleSections() {
     affirmationSection.classList.toggle('hide');
-    answerSection.classList.toggle('hide');
 }
 
 const answers = [
