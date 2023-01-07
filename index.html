@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- metadata -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-    <!-- metadata -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- title and favicon -->
+        <title>Affirmation 8!</title>
+        <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
 
-    <!-- title and favicon -->
-    <title>Web App</title>
-    <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
+        <!-- js -->
+        <script type="module" src="app.js"></script>
 
-    <!-- js -->
-    <script type="module" src="app.js"></script>
+        <!-- fonts -->
+        <!-- see https://fonts.google.com/ -->
 
-    <!-- fonts -->
-    <!-- see https://fonts.google.com/ -->
+        <!-- css -->
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/global.css" />
+        <!-- add link for page specific css -->
+    </head>
 
-    <!-- css -->
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <!-- add link for page specific css -->
+    <body>
+        <header>
+            <img class="logo" src="assets/sun.jpeg" alt="logo" />
+            <h1>Affirmation 8!</h1>
+        </header>
+        <h1>Affirmation 8 Ball!</h1>
+        <main>
+            <audio controls auto play muted>
+                <source src="./assets/inspiration music.mp3" />
+            </audio>
 
-</head>
-
-<body>
-    <header>
-        <img class="logo" src="assets/html_css_js.png" alt="logo">
-        <h1>Web App</h1>
-    </header>
-
-    <main>
-
-    </main>
-
-</body>
-
+            <section id="prompt" class="prompt">
+                <h1>What's Heavy On Your Mind Today?</h1>
+                <input class="submit-input" type="text" placeholder="I feel so down..." />
+                <button class="submit-button" id="submit-button">Affirm Me</button>
+            </section>
+            <section id="affirmation" class="affirmation hide">
+                <div class="affirmation-wrapper">
+                    <img class="image" src="/assets/8 ball affirmations.png" alt="8 ball" />
+                    <p id="answers"></p>
+                    <button id="reset">New Affirmation!</button>
+                </div>
+            </section>
+        </main>
+    </body>
 </html>
