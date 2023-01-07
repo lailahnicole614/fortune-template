@@ -4,9 +4,9 @@
 const affirmmeBtn = document.getElementById('affirm me');
 const promptSection = document.getElementById('prompt');
 const affirmationSection = document.getElementById('affirmation');
-const answerP = document.getElementById('answer');
+const answersP = document.getElementById('answers');
 const resetBtn = document.getElementById('reset');
-
+const submitBtn = document.getElementById('submit-button');
 /* State */
 
 /* Events */
@@ -19,7 +19,7 @@ submitBtn.addEventListener('click', () => {
     // console.log(randomInt);
     const randomChoice = answers[randomInt];
     //console.log(randomChoice);
-    //console.log('answers[12]'), answers[12]);
+    //console.log('answers[19]'), answers[19]);
     //set the content of the answer p to the random choice
     answerP.textContent = randomChoice;
 });
@@ -30,8 +30,8 @@ resetBtn.addEventListener('click', () => {
 });
 
 function toggleSections() {
-    promptSection.classList.toggle('hide');
-    fortuneSection.classList.toggle('hide');
+    affirmationSection.classList.toggle('hide');
+    answersSection.classList.toggle('hide');
 }
 
 const answers = [
